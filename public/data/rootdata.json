@@ -1,0 +1,219 @@
+{
+    "id": "3247f411-15b0-4297-8fe9-597c1971eb9e",
+    "addr": "0",
+    "value": {
+        "title": "root"
+    },
+    "virtual": true,
+    "children": [
+        {
+            "id": "1dc65c2d-5dc2-4b24-ab1c-3857aa9d0c0f",
+            "addr": "0_0",
+            "tip": "eth",
+            "tooltip": [
+                "改进建议每月4条"
+            ],
+            "value": {
+                "title": "eth"
+            },
+            "virtual": true,
+            "children": [
+                {
+                    "id": "f1d29a4b-a1c9-477c-ae0b-bfc8c7c5a508",
+                    "addr": "45200120",
+                    "isAction": false,
+                    "tip": "eth",
+                    "tooltip": [
+                        "DdrType: LMEM",
+                        "ShotAddr: 0x2110",
+                        "FullAddr: 0x45200120",
+                        "ipv4_addr: 0x201200",
+                        "ipv6_addr: 0x201500",
+                        "default_addr: 0x840102"
+                    ],
+                    "value": {
+                        "title": "EthIf"
+                    },
+                    "virtual": false
+                },
+                {
+                    "id": "ec5605d2-fd10-4b34-859e-54ab8160cc31",
+                    "addr": "4520012c",
+                    "isAction": true,
+                    "nextHop": false,
+                    "tip": "eth",
+                    "tooltip": [
+                        "DdrType: LMEM",
+                        "ShotAddr: 0x211c",
+                        "FullAddr: 0x4520012c",
+                        "opType: 0",
+                        "subType: 0",
+                        "wordNum: 2",
+                        "metadataIndex: inphyport",
+                        "data: 0x01"
+                    ],
+                    "value": {
+                        "title": "Metadataupdate"
+                    },
+                    "virtual": false
+                },
+                {
+                    "id": "ca721f61-89ec-4d29-a548-8e0d8d73e949",
+                    "addr": "45200134",
+                    "isAction": true,
+                    "nextHop": false,
+                    "tip": "eth",
+                    "tooltip": [
+                        "DdrType: LMEM",
+                        "ShotAddr: 0x2124",
+                        "FullAddr: 0x45200134",
+                        "opType: 0",
+                        "subType: 0",
+                        "wordNum: 2",
+                        "metadataIndex: userdata0",
+                        "data: 0x1003"
+                    ],
+                    "value": {
+                        "title": "Metadataupdate"
+                    },
+                    "virtual": false
+                },
+                {
+                    "id": "b218cb72-a205-4bc5-ba44-2ae975f7f644",
+                    "addr": "4520013c",
+                    "isAction": true,
+                    "nextHop": false,
+                    "tip": "eth",
+                    "tooltip": [
+                        "DdrType: LMEM",
+                        "ShotAddr: 0x212c",
+                        "FullAddr: 0x4520013c",
+                        "opType: 0",
+                        "subType: 0",
+                        "wordNum: 2",
+                        "metadataIndex: userdata3",
+                        "data: 0x00001003"
+                    ],
+                    "value": {
+                        "title": "Metadataupdate"
+                    },
+                    "virtual": false
+                },
+                {
+                    "id": "65cd0b30-b005-4889-b917-f3f4f03bce01",
+                    "addr": "45200144",
+                    "isAction": true,
+                    "nextHop": false,
+                    "tip": "eth",
+                    "tooltip": [
+                        "DdrType: LMEM",
+                        "ShotAddr: 0x2134",
+                        "FullAddr: 0x45200144",
+                        "oper_type: 2",
+                        "mode: 0",
+                        "head_tail: 0",
+                        "pkt_offset: 0",
+                        "eth2: 0",
+                        "qiq_vlan: 0",
+                        "vlan: 0",
+                        "ipv4: 0",
+                        "ipv6: 0",
+                        "udp: 0",
+                        "gtpu: 0",
+                        "usedef: 0",
+                        "l2: 1",
+                        "l3: 0"
+                    ],
+                    "value": {
+                        "title": "Packetedit"
+                    },
+                    "virtual": false
+                },
+                {
+                    "id": "5492d4ed-b56a-4af3-baee-d07cf57d6046",
+                    "addr": "45200148",
+                    "isAction": true,
+                    "nextHop": false,
+                    "tip": "eth",
+                    "tooltip": [
+                        "DdrType: LMEM",
+                        "ShotAddr: 0x2138",
+                        "FullAddr: 0x45200148",
+                        "opType: 0",
+                        "subType: 0",
+                        "wordNum: 2",
+                        "metadataIndex: rttid",
+                        "data: 0x00"
+                    ],
+                    "value": {
+                        "title": "Metadataupdate"
+                    },
+                    "virtual": false
+                }
+            ]
+        },
+        {
+            "id": "2a99b9b4-7958-4bec-af62-c8cd089af317",
+            "addr": "0_1",
+            "tip": "fabric",
+            "tooltip": [
+                "改进建议每月4条"
+            ],
+            "value": {
+                "title": "fabric"
+            },
+            "virtual": true,
+            "children": [
+                {
+                    "id": "51748fa3-1f94-4bea-a65e-bb094569bf11",
+                    "addr": "45200a70",
+                    "isAction": false,
+                    "tip": "fabric",
+                    "tooltip": [
+                        "DdrType: LMEM",
+                        "ShotAddr: 0x2a60",
+                        "FullAddr: 0x45200a70",
+                        "MetadataIndex: ipv4dstip|l4dstport|l4protocol|frametype|",
+                        "cam_type: 0",
+                        "prefix: 4",
+                        "keynum: 4"
+                    ],
+                    "value": {
+                        "title": "Camsearch"
+                    },
+                    "virtual": false
+                }
+            ]
+        },
+        {
+            "id": "36a15edc-bd9f-4e97-b2b1-818dd874be3b",
+            "addr": "0_2",
+            "tip": "sec",
+            "tooltip": [
+                "改进建议每月4条"
+            ],
+            "value": {
+                "title": "sec"
+            },
+            "virtual": true,
+            "children": [
+                {
+                    "id": "a78384ca-2a94-42ef-bb24-821f21fac3c6",
+                    "addr": "45200a90",
+                    "isAction": false,
+                    "tip": "sec",
+                    "tooltip": [
+                        "DdrType: LMEM",
+                        "ShotAddr: 0x2a80",
+                        "FullAddr: 0x45200a90",
+                        "metadataindex: iflid"
+                    ],
+                    "value": {
+                        "title": "Indexed"
+                    },
+                    "virtual": false
+                }
+            ]
+        }
+    ]
+}

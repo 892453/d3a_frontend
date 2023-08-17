@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "id": "5a40e349-587f-4911-a623-ef823cad83ec",
+            "addr": "45200a90_0",
+            "tip": "0",
+            "tooltip": [
+                "改进建议每月4条"
+            ],
+            "value": {
+                "title": "0"
+            },
+            "virtual": true
+        },
+        {
+            "id": "71c74fdd-248a-4556-b794-19910bcf20e8",
+            "addr": "45200a90_1",
+            "tip": "1",
+            "tooltip": [
+                "改进建议每月4条"
+            ],
+            "value": {
+                "title": "1"
+            },
+            "virtual": true
+        },
+        {
+            "id": "59b367c2-a299-46bf-bccf-42c45c413f26",
+            "addr": "45200a90_2",
+            "tip": "2",
+            "tooltip": [
+                "改进建议每月4条"
+            ],
+            "value": {
+                "title": "2"
+            },
+            "virtual": true
+        },
+        {
+            "id": "5e4a62fc-4b20-4f5f-9f49-15ff8409dba2",
+            "addr": "45200a90_3",
+            "tip": "4000",
+            "tooltip": [
+                "改进建议每月4条"
+            ],
+            "value": {
+                "title": "4000"
+            },
+            "virtual": true
+        },
+        {
+            "id": "ff56b07a-e5ba-4142-a1f9-6fe594b9ce3e",
+            "addr": "45200a90_4",
+            "tip": "4001",
+            "tooltip": [
+                "改进建议每月4条"
+            ],
+            "value": {
+                "title": "4001"
+            },
+            "virtual": true
+        },
+        {
+            "id": "7787c136-93a1-44cd-9dd9-1dc389650c00",
+            "addr": "45200a90_5",
+            "tip": "4002",
+            "tooltip": [
+                "改进建议每月4条"
+            ],
+            "value": {
+                "title": "4002"
+            },
+            "virtual": true
+        }
+    ]
+}
