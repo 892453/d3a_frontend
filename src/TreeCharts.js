@@ -118,11 +118,11 @@ const TreeCharts = () => {
             // 显示小地图
             show: true,
             // 小地图长、宽
-            size: [300, 150],
+            size: [300, 200],
             // 渲染类型：下面配置消耗资源最少
             type: 'delegate',
             // 间距
-            padding: 20,
+            padding: 50,
         },
         // 边样式，节点直接的连接线
         edgeCfg: {
@@ -164,6 +164,7 @@ const TreeCharts = () => {
         // 布局
         layout: {
             getWidth: (cfg) => {
+                console.log("getWidth:", cfg);
                 let width = 80
                 const tip_length = cfg?.tip?.length
                 if (tip_length !== undefined && tip_length > 20) {
@@ -174,8 +175,9 @@ const TreeCharts = () => {
             },
             // 调整布局节点高度
             getHeight: (cfg) => {
+                console.log("getHeight:", cfg);
                 if (cfg?.virtual === true) {
-                    return 40
+                    return 20
                 }
                 return -6
             },
@@ -200,9 +202,9 @@ const TreeCharts = () => {
 
 
     return (
-        <>
+        <div style={{height: "880px", width: "100%"}}>
             <DecompositionTreeGraph className={'tree-charts'} {...config} />
-        </>
+        </div>
     )
 }
 
